@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "slide-structure-parser"
+version = "0.1.0"
+description = "This project is used to extract structure of a slide from input image"
+authors = ["luke1409 <nmluong.1409@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain-experimental = "^0.3.2"
+langchain = "^0.3.7"
+langchain-core = "^0.3.15"
+langchain-openai = "^0.2.5"
+ipykernel = "^6.29.5"
+langgraph = "^0.2.44"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
